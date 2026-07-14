@@ -1,0 +1,89 @@
+.existCol1, 
+.existCol2,
+.existCol3{
+  width: 100%;
+  max-width: 350px;
+  box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.112);
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 15px;
+}
+.existCol1 p,
+.existCol2 p,
+.existCol3 p{
+  font-size: 90%;
+  line-height: 1.6em;
+  background: transparent;
+}
+.existFlexContainer{
+  display: flex;
+  justify-content: space-between;
+}
+.exisWrappert h3{
+  color: #163A34;
+  font-size: 190%;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.exisWrappert{
+  margin-top: 70px;
+  padding: 0 30px;
+}
+.existCol1 h4,
+.existCol2 h4,
+.existCol3 h4{
+  font-size: 130%;
+  padding-bottom: 20px;
+  background: transparent;
+  color: #163A34;
+}
+@media (max-width: 600px) {
+  .existFlexContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+@media (max-width: 800px) {
+  .existFlexContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .existCol1,
+  .existCol2,
+  .existCol3{
+    width: 100%;
+    max-width: 100%;
+  }
+  
+}
+
+@media (max-width: 900px) {
+   .existFlexContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .existCol1,
+  .existCol2,
+  .existCol3{
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+   .existFlexContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .existCol1,
+  .existCol2,
+  .existCol3{
+    width: 100%;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,251 @@
+.headerContainer {
+  border-bottom: 1px solid rgba(203, 197, 197, 0.855);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background: transparent;
+  position: relative;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navLink {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.navLink a {
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+  color: #163a34;
+  padding-bottom: 3px;
+}
+
+.navLink a li {
+  font-size: 90%;
+  list-style: none;
+}
+
+.navLink a::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  background: #fe9f6b;
+  width: 100%;
+  height: 2px;
+  transform: scaleX(0);
+  transform-origin: bottom left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navLink a:hover::after {
+  transform: scaleX(1);
+}
+
+.browseBtn {
+  width: 100%;
+  max-width: 150px;
+  background: #163a34;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 3px 3px #fe9f6b;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.browseBtn a {
+  text-decoration: none;
+  color: white;
+  background: transparent;
+  font-size: 90%;
+}
+
+.hambugerIcon {
+  display: none;
+  background: #d0dcd9;
+  border-radius: 7px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+/* ===========================
+   MOBILE RESPONSIVENESS
+=========================== */
+
+@media (max-width: 600px) {
+  .headerContainer {
+    padding: 10px 15px;
+    background: #fff;
+  }
+
+  .headerContainer img {
+    width: 200px;
+    background: #fff;
+  }
+
+  .hambugerIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .divider {
+    position: absolute;
+    top: 100%;
+    left: -100%;
+    width: 100%;
+    background: white;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    padding: 25px 20px;
+    transition: left 0.3s ease-in-out;
+    border-top: 1px solid #e6e6e6;
+    z-index: 1000;
+  }
+
+  .activeMenu {
+    left: 0;
+  }
+
+  .navLink {
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    background: #fff;
+  }
+  .navLink a li{
+    background: #fff;
+  }
+  
+  .navLink a {
+    width: fit-content;
+    background: #fff;
+  }
+
+  .browseBtn {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+   .headerContainer {
+    padding: 10px 15px;
+    background: #fff;
+  }
+
+  .headerContainer img {
+    width: 200px;
+    background: #fff;
+  }
+
+  .hambugerIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .divider {
+    position: absolute;
+    top: 100%;
+    left: -100%;
+    width: 100%;
+    background: white;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    padding: 25px 20px;
+    transition: left 0.3s ease-in-out;
+    border-top: 1px solid #e6e6e6;
+    z-index: 1000;
+  }
+
+  .activeMenu {
+    left: 0;
+  }
+
+  .navLink {
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    background: #fff;
+  }
+  .navLink a li{
+    background: #fff;
+  }
+  
+  .navLink a {
+    width: fit-content;
+    background: #fff;
+  }
+
+  .browseBtn {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .headerContainer {
+   padding: 10px 15px;
+   background: #fff;
+  }
+  
+  .headerContainer img {
+   width: 200px;
+   background: #fff;
+  }
+  .hambugerIcon {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+  
+  .divider {
+   position: absolute;
+   top: 100%;
+   left: -100%;
+   width: 100%;
+   background: white;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 25px;
+   padding: 25px 20px;
+   transition: left 0.3s ease-in-out;
+   border-top: 1px solid #e6e6e6;
+   z-index: 1000;
+  }
+  
+  .activeMenu {
+   left: 0;
+  }
+  
+  .navLink {
+   flex-direction: column;
+   width: 100%;
+   gap: 20px;
+   background: #fff;
+  }
+  .navLink a li{
+   background: #fff;
+  }
+  
+  .navLink a {
+   width: fit-content;
+   background: #fff;
+  }
+  
+  .browseBtn {
+   max-width: 100%;
+   width: 100%;
+  }
+  
+}

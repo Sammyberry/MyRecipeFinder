@@ -1,0 +1,108 @@
+.productContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 40px;
+}
+.productCard{
+  width: 100%;
+  padding: 8px;
+  max-width: 370px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.105);
+}
+.productCard h4{
+  background: transparent;
+  color: #163A34;
+}
+.productCard p{
+  padding: 13px 0;
+  color: #163A34;
+  background: transparent;
+  font-size: 80%;
+}
+.productCard svg{
+  background: transparent;
+}
+.servingContainer{
+  display: flex;
+  background: transparent;
+  color: #163A34;
+  align-items: center;
+  justify-content: space-between;
+  width: 105px;
+}
+.dishContainer{
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 224px;
+}
+svg{
+  background: transparent;
+}
+.servingText{
+  background: transparent;
+  font-size: 80%;
+  font-weight: 600;
+}
+.cookTime{
+  cursor: pointer;
+  background: transparent;
+  font-size: 80%;
+  font-weight: 600;
+}
+.serveCookContainer{
+  width: 100%;
+  max-width: 370px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+}
+.productImage{
+  /* border: 1px solid red; */
+  border-radius: 20px;
+  transform: scale(1);
+  object-fit: cover;
+  overflow: hidden;
+  cursor: pointer;
+}
+.productImage img:hover{
+  transform: scale(1.05);
+}
+.productImage img{
+  width: 100%;
+  background: transparent;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 300ms;
+  box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.14);
+}
+.viewRecipeBtn{
+  width: 100%;
+  background: transparent;
+  padding: 12px;
+  color: #fff;
+  background-color: #163A34;
+  border: none;
+  border-radius: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 200ms;
+}
+.viewRecipeBtn:hover{
+  background: #163a34e9;
+}
+.viewRecipeBtn a {
+  text-decoration: none;
+  color: #fff;
+  background: #163A34;
+}
+.errorMessageForProduct{
+  color: hsla(0, 100%, 50%, 0.624);
+  font-size: 110%;
+}

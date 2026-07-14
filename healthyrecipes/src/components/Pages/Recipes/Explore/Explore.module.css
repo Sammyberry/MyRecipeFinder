@@ -1,0 +1,22 @@
+
+.exploreWrapper{
+  padding-top: 30px;
+  margin-bottom: 40px;
+}
+.exploreArticle{
+  text-align: center;
+  margin: auto;
+}
+.exploreArticle h2{
+  font-size: 210%;
+  font-weight: 800;
+  color: #163A34;
+}
+.exploreArticle p{
+  font-size: 90%;
+  width: 100%;
+  max-width: 650px;
+  margin: auto;
+  color: #163A34;
+  margin-top: 10px;
+}

@@ -1,0 +1,63 @@
+.callToActionWrapper{
+  text-align: center;
+  overflow: hidden;
+  background-color: #E9EDE8;
+  padding: 80px 0;
+  z-index: 999;
+  margin-top: 80px;
+  position: relative;
+}
+.callToActionWrapper h2{
+  font-size: 200%;
+  background: transparent;
+  padding-bottom: 20px;
+  font-weight: 800;
+  color: #395852;
+}
+.callToActionWrapper p{
+  padding-bottom: 15px;
+  background: transparent;
+  color: #163A34;
+
+}
+.knifeIcon{
+  background: transparent;
+  position: absolute;
+  z-index: 1;
+  right: -50px;
+  object-fit: cover;
+  top: -50px;
+  width: 100%;
+  max-width: 200px;
+}
+.ctaBtn{
+  padding: 10px 15px;
+  box-shadow: 3px 3px #FE9F6B;
+  color: #fff;
+  background: #163A34;
+  font-weight: 600;
+  border-radius: 6px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+}
+.ctaBtn a{
+  text-decoration: none;
+  color: #fff;
+  background: transparent;
+}
+.forkIcon{
+  background: transparent;
+  position: absolute;
+  left: -50px;
+  object-fit: cover;
+  bottom: -50px;
+  width: 100%;
+  max-width: 150px;
+  
+}
+@media(max-width: 600px){
+  .knifeIcon{
+    display: none;
+  }
+}

@@ -1,0 +1,180 @@
+[
+  {"id": 1, "name": "Spice-Rubbed Lemon Barbecue ", "description": "Spice-Rubbed Lemon Barbecue Salmon is a Barbecue main course.", "serving": 2, "cooktime": "25mins", "images": "./images/item7.webp", "Ingredient": [
+  "Teaspoons barbecue sauce",
+  "Tablespoons Barbecue seasoning",
+  "Teaspoon hoisin sauce",
+  "Teaspoons honey",
+  "Lemon",
+  "Ounce salmon fillets, patted dry.",
+  "Kosher salt or sea salt"
+  ],
+  "Instruction": [
+  "Place the salmon fillets on a greased, foil-lined baking sheet.Rub the top of the salmon with the barbecue seasoning.",
+  "Let sit for 10 minutes while you preheat the broiler.",
+  "Place the baking sheet 4 - 6 from the heating element and broil for 6 - 8 minutes, until cooked through.",
+  "Remove from the broiler and let sit 5 minutes.",
+  "Combine the sauce ingredients (barbecue sauce, hoisin sauce, honey and zest of 1/2 lemon) in a small bowl.Spoon the sauce into a small ziplock bag and squeeze down to the corner of the bag.",
+  "Cut off a very small portion of the corner of the bag and squeeze the sauce generously over the salmon",
+  "Serve with a lemon wedge from the other half of the lemon."
+  ]},
+
+  {"id": 2, "name": "Carrot and Cabbage Salad", "description": "Add more gluten free, dairy free, paleolithic, and lacto ovo vegetarian recipes to your repertoir.", "serving": 1, "cooktime": "25mins", "images": "./images/item9.webp", "Ingredient": [
+    "1 1/2 cups of carrots",
+    "1/2 tsp cumin seed powder",
+    "1 bunch of fresh coriander",
+    "3/4 cup green Cabbage",
+    "1 juice of lime",
+    "1 Teaspoon of olive oil",
+    "3/4 cup red Cabbage",
+    "2 Teaspoon of sunflower seed"
+  ],
+  "Instruction": [
+  " Chop up the carrots and the cabbage into slivers of roughly the same size.",
+
+  "Add the ground coriander, cumin seed, lime juice, and olive oil and massage it into the veggies.",
+
+  "Add the fresh coriander and sunflower seeds on top.Leave aside for a couple of hours for the spices to seep into the veggies for added flavor."
+  ]},
+
+   {"id": 3, "name": "Gujarati Dry Mung", "description": "Gujarati Dry Mung Bean Curry takes about 45 minutes from beginning to end.", "serving": 4, "cooktime": "45mins", "images": "./images/item6.webp", "Ingredient": [
+
+    "1 small pinch baking powder",
+    "2 mediums hot chillies, minced",
+    "1 teaspoon cinnamon powder",
+    "1/4 cup chopped coriander",
+    "2 teaspoons cumin seeds",
+    "6 curry leaves",
+    "1 tablespoon garlic, minced",
+    "1 tablespoon lemon juice or to taste",
+    "1 1/2 cups mung beans",
+    "1 teaspoon mustard seeds",
+    "Salt to taste",
+    "Sugar to taste",
+    "1 tablespoon sunflower oil",
+    "1 medium tomato, chopped",
+    "1/2 teaspoon turmeric"
+    ],
+    "Instruction": [
+    "Wash the mung beans and boil them in plenty of hot water with a pinch of baking powder until al-dente. If you have a pressure cooker thats about 6-7 whistles.",
+
+    "Drain and set aside.In a large pan heat the oil and add the mustard seeds (wait for them to pop) then add the cumin seeds, asafoetida, curry leaves, garlic and chillies. Saut until aromatic. Obviously dont let it burn.",
+
+    "Add the tomatoes, turmeric and mung beans and cook for two minutes. Be careful not to mash it up as you stir.",
+
+    "Add the salt, sugar, lemon juice and cinnamon powder and cook for a further two minutes.Throw in the chopped coriander, combine and serve."
+  ]},
+
+   {"id": 4, "name": "Venison Sliders", "description": "Venison Sliders might be just the hor d'oeuvre you are searching for.", "serving": 6, "cooktime": "45mins", "images": "./images/item5.webp", "Ingredient": [
+   "Baby spinach",
+    "1 loaf of hearty bread",
+    "3 pounds veni­son round roast",
+    "1 large onion",
+    "1/2 teas pepper",
+    "Chipolte mayo, mayo, or steak sauce",
+    "1/2 tea salt",
+    "1 cup liq­uid (I used a steak­house mari­nade.)"
+   ],
+  "Instruction":[
+    "Sprinkle roast evenly with salt and pepper.",
+    "Place in a crock pot and add liquid. Cook on low 5 to 6 hours.",
+
+    "Remove roast from crockpot and let sit for at least 10 minutes. Meanwhile, preheat your sandwich press, grill pan or skillet and saute your onions (you can choose to leave the onions raw if you prefer).Thinly slice the roast.Slice bread in small sandwich sized portions and spread on your condiment of choice. Pile on spinach, onion, venison and cheese in which ever order strikes your fancy.",
+
+    "Place in your sandwich press and make sure to press and hold the lid down for at least 30 seconds.",
+
+    "Let cook for 5 minutes until cheese is melted and bread is toasted.",
+
+    "Serve and enjoy!"
+  ]},
+
+   {"id": 5, "name": "Nasturtium Pesto", "description": "Nasturtium Pesto requires roughly 45 minutes from start to finish.", "serving": 4, "cooktime": "45mins", "images": "./images/item1.webp", "Ingredient": [
+  "2 cups nasturtium flowers and leaves",
+  "1 tablespoon diced shallot",
+  "1 teaspoon garlic minced",
+  "1/2 cup toasted walnuts",
+  "cup olive oil",
+  "Season with s&p"
+   ],
+  "Instruction": [
+    "Process all ingredients together.",
+    "Season to taste"
+  ]},
+
+   {"id": 6, "name": "Colorful Tomato and Spinach Seafood", "description": "Colorful Tomato and Spinach Seafood Pasta requires about 20 minutes from start to finish.", "serving": 2, "cooktime": "20mins", "images": "./images/item4.webp", "Ingredient": [
+  "1/2 cup chicken broth",
+  "8 ounces cod, cut into bite sized pieces",
+  "2 tablespoons flour",
+  "2 cloves garlic, minced",
+  "2 tablespoons lemon juice, fresh squeezed",
+  "1 tablespoon olive oil",
+  "2 tablespoons parmesan cheese , shredded",
+  "2 large Roma tomatoes, chopped",
+  "salt and pepper to taste",
+  "1 large shallot, finely chopped",
+  "4 cups spinach, chopped",
+  "1/4 cup white wine",
+  "4 ounces whole wheat pasta, spaghetti",
+  "1/4 cup to ½ basil (dependent on your taste), roll leaves together and then slice into thin pieces"
+   ],
+  "Instruction": [
+  "Cook spaghetti according to package directions.",
+  "Heat oil in large non-stick skillet.",
+  "Add onion and garlic and cook 3-4 minutes.",
+  "Add tomatoes and cook another 3-4 minutes until tender.", 
+  "Toss cod with flour and salt and pepper to taste.",
+  "Add cod to pan and cook another 3 minutes, add another tsp olive oil if necessary.",
+  "Add chicken broth and wine and cook another 3 minutes, stirring gently to make sauce, but not break up fish.",
+  "Add spinach and basil and cook another 3-4 minutes until spinach just wilts and sauce has reduced nicely.",
+  "Top pasta with cod and parmesan cheese."
+  ]},
+
+   {"id": 7, "name": "Yellow Squash Noodles Sauce", "description": "Cranberry Pecan Greek Yogurt Chicken Salad is a main course that serves", "serving": 2, "cooktime": "45mins", "images": "./images/item8.jpg", "Ingredient": [
+   "3 large yellow squash",
+  "1 Tbs olive oil",
+  "5 medium roma tomatoes, halved and seeded",
+  "4 cloves garlic, peeled",
+  "3 sun-dried tomatoes (I used the kind that is not packed in oil)",
+  "1/2 cup fresh basil leaves, loosely packed",
+  "pinch of sea salt",
+  "2/3 cup yellow plum tomatoes (optional)",
+  "1 fennel bulb, thinly sliced",
+  "1 Tbs fresh dill, chopped"
+   ],
+   "Instruction": [
+  "Heat 1 and 1/2 tablespoons of olive oil in a small saut pan over medium-high heat. When the pan is hot, add the garlic and tomatoes cut side down.",
+
+  "Let the tomatoes cook for 3 minutes before turning them over. Cook for another 2-3 minutes and then turn off the heat",
+
+  "In a food processor or blender, mix the sauted tomatoes, garlic, sun-dried tomatoes, basil, and salt until smooth.",
+
+  "Cut off both ends of each of the yellow squash. Spiralize the squash with Blade B, and chop the noodles several times so that they are easier to eat. Be sure to slice the part of the squash that is not spiralized and mix them with the noodles. NOTE: If you do not own a spiralizer, use a vegetable peeler to create yellow squash ribbons.",
+
+  "If you are adding fennel to this dish, heat a tablespoon of oil in a small saut pan over medium-high heat. When the pan is hot, add the fennel and saut them for about 4-5 minutes or until they turn translucent.",
+
+  "Season with some fresh dill and salt.",
+
+  "In a large bowl, mix the noodles and sauce together.",
+
+  "Serve with the fennel and plum tomatoes.",
+
+  "Refrigerate any leftovers in an airtight container."
+]
+  },
+
+   {"id": 8, "name": "Cranberry Pecan Greek Yogurt", "description": "The recipe Yellow Squash Noodles with Tomato Basil Sauce can be made in roughly 45 minutes.", "serving": 3, "cooktime": "45mins", "images": "./images/item2.png", 
+   "Ingredient" :[
+    "2 to 3 Tablespoons Greek yogurt (or mayo)",
+    "Sea salt, to taste",
+    "5 oz. can Wild Planet Organic Roasted Chicken Breast",
+    "2 Tablespoons finely chopped scallion",
+    "2 Tablespoons dried cranberries",
+    "2 Tablespoons roughly chopped pecans",
+    "Combine all",
+    "In an avocado! I had it as a super-quick, post workout lunch. Yum!",
+    "Chipotle Fried Egg Avocado Toast",
+    "Quick and Easy Black Bean Soup",
+    "Easy Avocado Egg Quinoa Breakfast Bowl"
+   ]},
+
+   {"id": 9, "name": "Carrot and Cabbage Salad", "description": "Add more gluten free, dairy free, paleolithic, and lacto ovo vegetarian recipes to your repertoir.", "serving": 1, "cooktime": "25mins", "images": "./images/item9.webp"}
+]

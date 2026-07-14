@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Nunito, sans-serif;
+  background: #F6F5F1;
+  font-size: 20px;
+  color: #485E58;
+  background: url(/images/dots.svg), #F6F5F1;
+}

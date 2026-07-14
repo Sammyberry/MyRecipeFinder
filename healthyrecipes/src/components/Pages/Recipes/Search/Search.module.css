@@ -1,0 +1,142 @@
+/* Layout Wrapper */
+.mainSearchWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  width: 100%;
+  /* border: 1px solid red;  */
+}
+
+/* Filters Wrapper (Left Side) */
+.searchSpan1 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  max-width: 600px; 
+}
+
+/* Select Inputs Custom Styling */
+.prepTimeContainer select,
+.prepTimeContainer select option,
+.cookTimeContainer select,
+.cookTimeContainer select option,
+.dietContainer select,
+.dietContainer select option {
+  color: #000;
+  border-radius: 5px;
+  padding: 6px;
+  font-size: 90%;
+}
+
+.prepTimeContainer {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.clearBtn {
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Search Bar Wrapper (Right Side) */
+.searchSpan2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 400px;
+  padding: 10px 8px;
+  background: #ffff;
+  border-radius: 5px;
+}
+
+/* Input Fields */
+.inputSearch {
+  background: transparent;
+  font-size: 90%;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.magIcon {
+  display: block;
+  /* border: 1px solid red; */
+  background: transparent;
+}
+@media(max-width: 600px) {
+  .mainSearchWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+  }
+  .searchSpan1{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .searchSpan1{
+    gap: 10px;
+  }
+  .inputContainer{
+    /* width: 100%; */
+    width: 350px;
+  }
+}
+@media (max-width: 800px) {
+  .mainSearchWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+  }
+  .searchSpan1{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .searchSpan1{
+    gap: 10px;
+  }
+  .inputContainer{
+    /* width: 100%; */
+    width: 350px;
+  }
+  
+}
+@media (max-width: 1000px) {
+  .mainSearchWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+  }
+  .searchSpan1{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .searchSpan1{
+    gap: 10px;
+  }
+  .inputContainer{
+    /* width: 100%; */
+    width: 350px;
+  }
+  
+}
