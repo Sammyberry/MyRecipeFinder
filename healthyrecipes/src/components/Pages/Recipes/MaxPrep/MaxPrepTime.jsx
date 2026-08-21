@@ -1,13 +1,10 @@
 import { useState } from "react";
-// 1. Fixed the import name to match the "styles" variable used below
 import styles from "./MaxPrepTime.module.css"; 
 
 function MaxPrepTime() {
-  // 2. Restored the missing state logic variables
   const [isOpen, setIsOpen] = useState(false);
   const [maxTime, setMaxTime] = useState("");
 
-  // 3. Restored the missing event handler functions
   function handleRadioChange(e) {
     setMaxTime(Number(e.target.value));
   }
@@ -17,7 +14,7 @@ function MaxPrepTime() {
   }
 
   return (
-    /* 4. Fixed hyphenated CSS modules using ['bracket notation'] */
+   
     <div className={styles['dropdown-container']}>
       
       {/* 1. The Main Dropdown Button */}
@@ -44,7 +41,7 @@ function MaxPrepTime() {
             <span>0 minutes</span>
           </label>
 
-          <label className={style => styles['radio-option']}>
+          <label className={styles['radio-option']}>
             <input
               type="radio"
               name="prepTime"

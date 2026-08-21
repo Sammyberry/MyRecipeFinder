@@ -161,20 +161,50 @@
 ]
   },
 
-   {"id": 8, "name": "Cranberry Pecan Greek Yogurt", "description": "The recipe Yellow Squash Noodles with Tomato Basil Sauce can be made in roughly 45 minutes.", "serving": 3, "cooktime": "45mins", "images": "./images/item2.png", 
-   "Ingredient" :[
-    "2 to 3 Tablespoons Greek yogurt (or mayo)",
-    "Sea salt, to taste",
-    "5 oz. can Wild Planet Organic Roasted Chicken Breast",
-    "2 Tablespoons finely chopped scallion",
-    "2 Tablespoons dried cranberries",
-    "2 Tablespoons roughly chopped pecans",
-    "Combine all",
-    "In an avocado! I had it as a super-quick, post workout lunch. Yum!",
-    "Chipotle Fried Egg Avocado Toast",
-    "Quick and Easy Black Bean Soup",
-    "Easy Avocado Egg Quinoa Breakfast Bowl"
-   ]},
-
-   {"id": 9, "name": "Carrot and Cabbage Salad", "description": "Add more gluten free, dairy free, paleolithic, and lacto ovo vegetarian recipes to your repertoir.", "serving": 1, "cooktime": "25mins", "images": "./images/item9.webp"}
+  {
+    "id": 8,
+    "name": "Cranberry Pecan Greek Yogurt",
+    "description": "Cranberry Pecan Greek Yogurt Chicken Salad is a quick, post-workout meal or salad filler.",
+    "serving": 3,
+    "cooktime": "45mins",
+    "images": "./images/item2.png",
+    "Ingredient": [
+      "2 to 3 Tablespoons Greek yogurt (or mayo)",
+      "Sea salt, to taste",
+      "5 oz. can Wild Planet Organic Roasted Chicken Breast",
+      "2 Tablespoons finely chopped scallion",
+      "2 Tablespoons dried cranberries",
+      "2 Tablespoons roughly chopped pecans",
+      "1 ripe avocado, halved and pitted"
+    ],
+    "Instruction": [
+      "Flake the canned chicken breast into a medium mixing bowl with a fork.",
+      "Add the Greek yogurt, finely chopped scallion, dried cranberries, and chopped pecans.",
+      "Mix all ingredients together until evenly combined, then season with sea salt to taste.",
+      "Spoon the chicken salad generously into the cavity of half an avocado and serve cold."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Carrot and Cabbage Salad",
+    "description": "Add more gluten free, dairy free, paleolithic, and lacto ovo vegetarian recipes to your repertoire.",
+    "serving": 1,
+    "cooktime": "25mins",
+    "images": "./images/item9.webp",
+    "Ingredient": [
+      "1 1/2 cups of carrots",
+      "1/2 tsp cumin seed powder",
+      "1 bunch of fresh coriander",
+      "3/4 cup green Cabbage",
+      "1 juice of lime",
+      "1 Teaspoon of olive oil",
+      "3/4 cup red Cabbage",
+      "2 Teaspoon of sunflower seed"
+    ],
+    "Instruction": [
+      "Chop up the carrots and the cabbage into slivers of roughly the same size.",
+      "Add the ground coriander, cumin seed, lime juice, and olive oil and massage it into the veggies.",
+      "Add the fresh coriander and sunflower seeds on top. Leave aside for a couple of hours for the spices to seep into the veggies for added flavor."
+    ]
+  }
 ]
